@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f1d863;
+}
+
+#main-ejercicio1 {
+  height: 100vh;
+} 
+
+.code-block {
+  display: block;
+  margin: 1rem;
+}
+.btn-bg-color {
+  background-color: var(--primary-color);
+  border: none;
+}
+
