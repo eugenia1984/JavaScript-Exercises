@@ -8,7 +8,8 @@ I am taking the **Full Stack** course with **Programando Desde Tu Casa**  and he
 * Some first exercises.
 
 ## Content 🚀
-This Project only has one master branch, it was a small project so it did not need more branches.
+This Project only has one master branch, it was a small project so it did not need more branches. <br>
+You can see it here: **https://eugenia1984.github.io/JavaScript-Exercises/.**
 
 ## Stack of technologies 🛠️
 
@@ -36,7 +37,8 @@ Estoy tomando el curso **Full Stack** con **Programando Desde Tu Casa** y comenz
 * Podrán ver los primeros ejercicios de **JavaScript**.
 
 ## Contenido 🚀
-Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales.
+Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo que no necesitaba más sucursales. <br>
+Lo podés ver acá: **https://eugenia1984.github.io/JavaScript-Exercises/.**
 
 ## Tecnologías aplicadas 🛠️
 
