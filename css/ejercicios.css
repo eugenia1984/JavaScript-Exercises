@@ -9,7 +9,7 @@
 }
 
 #main-ejercicio1 {
-  height: 100vh;
+  min-height: 100vh;
 } 
 
 .code-block {
@@ -21,3 +21,8 @@
   border: none;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+}
