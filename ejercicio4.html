@@ -1,57 +1,79 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <!--CSS-->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/ejercicios.css">
-    <title>Ejercicios de JS</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-color">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="./img/javascript.png" alt="hoja con la abreviacion de JavaScript" class="d-inline-block align-text-top">
-            <h1>Ejercicios de JavaScript</h1>
-          </a>
-        </div>
-      </nav>
-  </header>
-    <main id="main-ejercicio1">
-      <section>
-        <h2 class="text-center my-3">Ejercicios de práctica de <strong>JavaScript</strong></h2>
-      </section>
-      <section id="ejercicio3" class="m-5">
-        <h3>Ejercicio 4</h3>
-        <ol>
-          <li>Crea 2 variables numero y numerotriple.</li>
-          <li>Pidele al usuario que ingrese el valor del numero a calcular mediante un <strong>prompt()</strong>.</li>
-          <li>Asigna a la variable numerotriple el valor de la multiplicación por 3 del numero ingresado.</li>
-          <li> Muestralo el resultado por consola con el mensaje “El triple de este número es: (xx)”.</li>
-        </ol>
-        <p>Lo resolví del siguiente modo:</p>
-        <code class="code-block">let numero = Number(prompt('Por favor ingresa un numero: '));</code>
-        <code class="code-block">let numeroTriple = numero * 3 </code>
-        <code class="code-block">console.log(`El triple de este número es: ${numeroTriple}`);</code>
-        <p>🧐 Si inspeccionan en el navegador web y van a <strong>console</strong> pueden verlo en acción.</p>
-        <a href="index.html" class="btn btn-bg-color mt-5">Volver al inicio</a> 
-      </section>
-    </main>
-  
-    <footer class="footer mt-auto bg-color-footer">
-      <div class="container py-2">
-        <p>Diseñado por <a href="https://www.linkedin.com/in/maríaeugeniacosta" target="_blank">María Eugenia Costa</a></p>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/ejercicios.css">
+  <title>Ejercicios de JS</title>
+  <meta name="description" content="Hola bienvenid@ a mi pagina de práctica de JavaScript, soy María Eugenia Costa, Desarrolladora Full Stack">
+  <link rel="favicon" href="./img/javascript.ico">
+  <link rel="apple-touch-icon" href="./img/javascript.ico">
+  <meta name="theme-color" content="#f1d863">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:type" content="website">
+  <meta property="og:title" name="twitter:title" content="Ejercicios de practica de JS- María Eugenia Costa">
+  <meta property="og:description" name="twitter:description"
+    content="Hola bienvenid@ a mi pagina de práctica de JavaScript, soy María Eugenia Costa, Desarrolladora Full Stack">
+  <meta property="og:image" name="twitter:image"
+    content="https://eugenia1984.github.io/JavaScript-Exercises/">
+  <meta property="og:url" name="twitter:url"
+    content="https://eugenia1984.github.io/JavaScript-Exercises/">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-color">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" rel="noopener">
+          <img src="./img/javascript.png" alt="hoja con la abreviacion de JavaScript"
+            class="d-inline-block align-text-top" width="42" height="42">
+          <h1>Ejercicios de JavaScript</h1>
+        </a>
       </div>
-    </footer>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    <script src="./js/ejercicio4.js"></script>
-  </body>
+    </nav>
+  </header>
+  <main id="main-ejercicio1">
+    <section>
+      <h2 class="text-center my-3">Ejercicios de práctica de <strong>JavaScript</strong></h2>
+    </section>
+    <section id="ejercicio3" class="m-5">
+      <h3>Ejercicio 4</h3>
+      <ol>
+        <li>Crea 2 variables numero y numerotriple.</li>
+        <li>Pidele al usuario que ingrese el valor del numero a calcular mediante un <strong>prompt()</strong>.</li>
+        <li>Asigna a la variable numerotriple el valor de la multiplicación por 3 del numero ingresado.</li>
+        <li> Muestralo el resultado por consola con el mensaje “El triple de este número es: (xx)”.</li>
+      </ol>
+      <p>Lo resolví del siguiente modo:</p>
+      <code class="code-block">let numero = Number(prompt('Por favor ingresa un numero: '));</code>
+      <code class="code-block">let numeroTriple = numero * 3 </code>
+      <code class="code-block">console.log(`El triple de este número es: ${numeroTriple}`);</code>
+      <p>🧐 Si inspeccionan en el navegador web y van a <strong>console</strong> pueden verlo en acción.</p>
+      <a href="index.html" class="btn btn-bg-color mt-5" rel="noopener">Volver al inicio</a>
+    </section>
+  </main>
+
+  <footer class="footer mt-auto bg-color-footer">
+    <div class="container py-2">
+      <p>Diseñado por <a href="https://www.linkedin.com/in/maríaeugeniacosta" target="_blank" rel="noopener">María
+          Eugenia Costa</a></p>
+    </div>
+  </footer>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+  </script>
+  <script src="./js/ejercicio4.js"></script>
+</body>
+
 </html>

@@ -24,6 +24,11 @@ header .navbar-color a {
 header .navbar-color h1 {
   display: inline-block;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+}
 
 /******Main******/
 
