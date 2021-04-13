@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/ejercicios.css">
     <link rel="shortcut icon" href="img/javascript.ico" type="image/x-icon">
     <!--Title-->
-    <title>Ejercicio 1 de JS</title>
+    <title>Ejercicio 7 de JS</title>
     <!--SEO-->
     <meta name="description" content="Hola bienvenid@ a mi pagina de práctica de JavaScript, soy María Eugenia Costa, Desarrolladora Full Stack">
     <link rel="favicon" href="./img/javascript.ico">
@@ -31,7 +31,7 @@
     <header>
       <nav class="navbar navbar-color">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html" rel="noopener"`>
+          <a class="navbar-brand" href="index.html" rel="noopener">
             <img src="./img/javascript.png" alt="hoja con la abreviacion de JavaScript" class="d-inline-block align-text-top" width="42" height="42">
             <h1>Ejercicios de JavaScript</h1>
           </a>
@@ -42,32 +42,48 @@
       <section>
         <h2 class="text-center my-3">Ejercicios de práctica de <strong>JavaScript</strong></h2>
       </section>
-      <section id="ejercicio1" class="m-5">
-        <h3>Ejercicio 1</h3>
-        <p>Vamos a trabajar un poco con la consola para ir amigandonos con ella ya que será nuestra mejor amiga de ahora en más.</p>
+      <section id="ejercicio3" class="m-5">
+        <h3>Ejercicio 7</h3>
+        <p>Comparando</p>
         <ol>
-          <li>Declara una variable llamada nombre en tu consola y asignale tu nombre.</li>
-          <li>Declara una variable llamada apellido y asignale como valor tu apellido.</li>
-          <li>Muestra por consola las variables nombre y apellido.</li>
+          <li>Utiliza la consola para escribir una expresión que compare dos strings y produzca un valor TRUE.</li>
+          <li>Escribí una expresión comparando dos strings que devuelva FALSE.</li>
+          <li>Escribí una expresión que involucre un string y un número y devuelva FALSE.</li>
+          <li>Escribí una expresión que involucre un string y un número y devuelva TRUE</li>
         </ol>
-        <p>Lo resolví del siguiente modo:</p>
-        <code class="code-block">let nombre = 'María Eugenia'</code>
-        <code class="code-block">let apellido = 'Costa'</code>
-        <code class="code-block">console.log(`Mi nombre es ${nombre} y mi apellido es ${apellido}`)</code>
+        <p>1ro.:</p>
+        <p>Creo dos variables con distintos valores string entre ellas:</p>
+        <code class="code-block">let name1 = "María";</code>
+        <code class="code-block">let name2 = "Eugenia";</code>
+        <p>Como comparo si son distintas con <strong>!=</strong> es <strong>True</strong></p>
+        <code class="code-block">console.log(name1 != name2);</code>
+        <p>2do.:</p>
+        <p>Uso las mismas variables que declare y asigné valor en el 1:</p>
+        <code class="code-block">console.log(name1 == name2);</code>
+        <p>Y como los valores de las variables no nos iguales, me da como resultado <strong>False</strong></p>
+        <p>3ro.:</p>
+        <p>Creo la variable num y le asigno el valor de 10 en <strong>número</strong>.</p>
+        <code class="code-block">let num = 10;</code>
+        <p>Creo la variable ten y le asigno el valor 10 pero en <strong>string</strong></p>
+        <code class="code-block">let ten = '10';</code>
+        <p>Hago la comparación estricta con <strong> === </strong></p>
+        <code class="code-block">console.log(num === ten);</code>
+        <p>4to.:</p>
+        <p>Utilizo las mismas varaibles del paso anterior, pero hago una relación igual (==), que a diferencia de la estricta (===) no me compara el tipo de variable</p>
+        <code class="code-block">console.log(num == ten);</code>
         <p>🧐 Si inspeccionan en el navegador web y van a <strong>console</strong> pueden verlo en acción.</p>
-        <a href="index.html" class="btn btn-bg-color mt-5" rel="noopener"`>Volver al inicio</a>
+        <a href="index.html" class="btn btn-bg-color mt-5" rel="noopener">Volver al inicio</a> 
       </section>
     </main>
   
     <footer class="footer mt-auto bg-color-footer">
       <div class="container py-2">
-        <p>Diseñado por <a href="https://www.linkedin.com/in/maríaeugeniacosta" target="_blank" rel="noopener"`>María Eugenia Costa</a></p>
+        <p>Diseñado por <a href="https://www.linkedin.com/in/maríaeugeniacosta" target="_blank" rel="noopener">María Eugenia Costa</a></p>
       </div>
     </footer>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    <!--Link a mi JS del ejercicio-->
-    <script src="./js/ejercicio1.js"></script>
+    <script src="./js/ejercicio7.js"></script>
   </body>
 </html>

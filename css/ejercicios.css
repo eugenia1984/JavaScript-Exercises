@@ -7,20 +7,17 @@
 :root {
   --primary-color: #f1d863;
 }
-
-#main-ejercicio1 {
-  min-height: 100vh;
-} 
-
+/*******Code********/
 .code-block {
   display: block;
   margin: 1rem;
 }
+/******* Boton de volver*******/
 .btn-bg-color {
   background-color: var(--primary-color);
   border: none;
 }
-
+/*******Media Querie para pantallas chicas*******/
 @media (max-width: 576px) {
   h1 {
     font-size: 1.25rem;

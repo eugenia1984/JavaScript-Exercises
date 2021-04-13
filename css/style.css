@@ -31,11 +31,13 @@ header .navbar-color h1 {
 }
 
 /******Main******/
+#main-ejercicio1 {
+  min-height: 100vh;
+} 
 
 #ejercicios {
   width: 80%;
   margin: 2rem auto;
-  height: 100vh;
 }
 /*Code*/
 .code-inline {
