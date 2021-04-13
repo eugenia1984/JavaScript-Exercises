@@ -53,12 +53,15 @@
           <li>El algoritmo también debe decir, si <strong>numeroSecreto</strong> es más alto o  más bajo del que dijo el usuario.</li>
           <li>Por último, si el usuario no adivina el número, deberá aparecer un mensaje diciendo que se equivocó.</li>
         </ol>
-        <code class="code-block"></code>
-        <code class="code-block"></code>
-        <code class="code-block"></code>
-        <code class="code-block">  </code>
-        <code class="code-block"> </code>
-        <code class="code-block"></code>
+        <code class="code-block">const numeroSecreto = 10;</code>
+        <code class="code-block">const numeroUsuario = parseInt(prompt('Por favor, adivine el numero que estoy pensando. Ingreselo y veremos: '));</code>
+        <code class="code-block">if (numeroSecreto === numeroUsuario) {</code>
+        <code class="code-block">alert('Felicitaciones! Adivinaste el número!');</code>
+        <code class="code-block">} else if (numeroSecreto > numeroUsuario) {</code>
+        <code class="code-block">alert('Perdiste, pero te doy una pista! El numero ingresado es menor al número secreto');</code>
+        <code class="code-block">} else {</code>
+        <code class="code-block">alert('Perdiste, pero te doy una pista! El numero ingresado es mayor al número secreto');</code>
+        <code class="code-block">}</code>
         <a href="index.html" class="btn btn-bg-color mt-5" rel="noopener">Volver al inicio</a> 
 
       </section>
