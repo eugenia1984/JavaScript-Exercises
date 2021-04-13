@@ -24,10 +24,10 @@ switch (peliculaElegida) {
     break;
 }
 
-
-saludo.innerHTML = '<p> Bienvenid@ ' + nombre + ' a Brugge. </p> <p>  Disfrutá este verano con tu Brugge bien fria.</p>'  // MENSAJE DE BIENVENIDA
+//ver con innerHTML como este ejemplo a ver si asi se ve
+//saludo.innerHTML = '<p> Bienvenid@ ' + nombre + ' a Brugge. </p> <p>  Disfrutá este verano con tu Brugge bien fria.</p>'  // MENSAJE DE BIENVENIDA
 // ESTILOS AL TEXTO INGRESADO
-saludo.style.fontSize = '20px'
-saludo.style.fontWeight = 'bolder'
-saludo.style.height = '30px'
-saludo.style.textAlign = 'center'
+//saludo.style.fontSize = '20px'
+//saludo.style.fontWeight = 'bolder'
+//saludo.style.height = '30px'
+//saludo.style.textAlign = 'center'
