@@ -1,4 +1,4 @@
-# Algunos ejercicios con teoría de JavaScript, para ver algnos temas en particular
+# Algunos ejercicios con teoría de JavaScript, para ver algunos temas en particular
 
 ## Funciones:
 Son un bloque de código, autocontenido (independiente del scoope global) que se define solo una vez y se puede ejecutar en cualquer momento. Se declara una vez y se reutiliza todas las veces que se necesite. Un ejemplo:
@@ -154,16 +154,7 @@ class Perro extends Animal {
 }
 ```
 
-```
-```
 
 
-
-
-
-
-```
-
-```
 
 
