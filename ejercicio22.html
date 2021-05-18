@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/ejercicios.css">
     <link rel="shortcut icon" href="img/javascript.ico" type="image/x-icon">
     <!--Title-->
-    <title>Ejercicio 10 de JS</title>
+    <title>Ejercicio 22 de JS</title>
     <!--SEO-->
     <meta name="description" content="Hola bienvenid@ a mi pagina de práctica de JavaScript, soy María Eugenia Costa, Desarrolladora Full Stack">
     <link rel="favicon" href="./img/javascript.ico">
@@ -43,23 +43,32 @@
         <h2 class="text-center my-3">Ejercicios de práctica de <strong>JavaScript</strong></h2>
       </section>
       <section id="ejercicios">
-        <h3>Ejercicio 10</h3>
-        <h4>Una entrada para tu película favorita.</h4>
+        <h3>Ejercicio 22</h3>
+        <p>Obteniendo el nombre más largo de un array</p>
         <ol>
-          <li>Declara una variable que se llame <strong>peliculaElegida</strong> y asignale el método <strong>prompt() </strong> para que le puedas solicitar al usuario que ingrese su película favorita de una lista, que tú vas a proporcionar en dicho método. <br>
-          Importante: para que puedas enlistar las opciones de películas una debajo de otra, necesitaras el carácter especial (\n ) ó colocar un <strong> br </strong> para hacer un salto de línea. Sino te queda muy claro  cómo usarlo, deberás googlea para ver un ejemplo.</li>
-          <li>Evalúa cada uno de los casos con el condicional switch (utilizaremos este método para practicarlo). En el bloque de código de cada case le diremos que “su ticket ha sido emitido”, pero, lo haremos a través del método <strong>document.write()</strong> y en su argumento(dentro de los paréntesis) haremos un template literals con el formato HTML del texto y la imagen de la película elegida.</li>
+          <li>Declara un array nombres con al menos 6 nombres.</li>
+          <li>Obtén el nombre más largo del array nombres. Tener en cuenta que los "Strings" son listas de caracteres y que las listas tienen un largo (length) que indica su tamaño.</li>
         </ol>
-        <code class="code-block"></code>
-        <code class="code-block"></code>
-        <code class="code-block"></code>
-        <code class="code-block">  </code>
-        <code class="code-block"> </code>
-        <code class="code-block"></code>
+        <p>Forma de resolverlo:</p>
+        <p>Declaro el array nombre con 6 nombres</p>
+        <code class="code-block">let nombres = ["Analia", "Carlos", "Andres", "Agustin", "Mateo","Ana"];</code>
+        <p>Muestro por consola el array</p>
+        <code class="code-block">console.info(nombres);</code>
+        <p>Creo una segunda variable que la llamo nombreMasLargo y la inicializo vacía</p>
+        <code class="code-block">let nombreMasLargo = ""; </code>
+        <p>Creo una tercer varaible y la llamo NombreMasCorto</p>
+        <code class="code-block">let nombreMasCorto = "";</code>
+        <p>Voy a ir guardando el nombre mas largo a medida que se va ejecutando el for, voy a ir recorriendo uno a uno los nombres y comparando cuál es más largo (que seguarda en nombreMasLargo)</p>
+        <code class="code-block">for (let i = 0; i < nombres.length; i++) {</code>
+        <code class="code-block mx-3">if (nombres[i].length >= nombreMasLargo.length) {</code>
+        <code class="code-block mx-5">nombreMasCorto = i;</code>
+        <code class="code-block mx-5">nombreMasLargo = nombres[i];</code>
+        <code class="code-block mx-3">}</code>
+        <code class="code-block">}</code>
+        <code class="code-block">console.log(`El nombre más largo de la lista es: ${nombreMasLargo}`);</code>
+        <p>Con F12 inspeccionando consola se ve el código en acción</p>
         <a href="index.html" class="btn btn-bg-color mt-5" rel="noopener">Volver al inicio</a> 
-        <section id="pelicula">
 
-        </section>
       </section>
     </main>
   
@@ -71,6 +80,6 @@
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    <script src="./js/ejercicio10.js"></script>
+    <script src="./js/ejercicio22.js"></script>
   </body>
 </html>

@@ -13,9 +13,10 @@
   <link rel="stylesheet" href="./css/ejercicios.css">
   <link rel="shortcut icon" href="img/javascript.ico" type="image/x-icon">
   <!--Title-->
-  <title>Ejercicio 3 de JS</title>
+  <title>Ejercicio 17 de JS</title>
   <!--SEO-->
-  <meta name="description" content="Hola bienvenid@ a mi pagina de práctica de JavaScript, soy María Eugenia Costa, Desarrolladora Full Stack">
+  <meta name="description"
+    content="Hola bienvenid@ a mi pagina de práctica de JavaScript, soy María Eugenia Costa, Desarrolladora Full Stack">
   <link rel="favicon" href="./img/javascript.ico">
   <link rel="apple-touch-icon" href="./img/javascript.ico">
   <meta name="theme-color" content="#f1d863">
@@ -24,10 +25,8 @@
   <meta property="og:title" name="twitter:title" content="Ejercicios de practica de JS- María Eugenia Costa">
   <meta property="og:description" name="twitter:description"
     content="Hola bienvenid@ a mi pagina de práctica de JavaScript, soy María Eugenia Costa, Desarrolladora Full Stack">
-  <meta property="og:image" name="twitter:image"
-    content="https://eugenia1984.github.io/JavaScript-Exercises/">
-  <meta property="og:url" name="twitter:url"
-    content="https://eugenia1984.github.io/JavaScript-Exercises/">
+  <meta property="og:image" name="twitter:image" content="https://eugenia1984.github.io/JavaScript-Exercises/">
+  <meta property="og:url" name="twitter:url" content="https://eugenia1984.github.io/JavaScript-Exercises/">
 </head>
 
 <body>
@@ -47,20 +46,26 @@
       <h2 class="text-center my-3">Ejercicios de práctica de <strong>JavaScript</strong></h2>
     </section>
     <section id="ejercicios">
-      <h3>Ejercicio 3</h3>
-      <ol>
-        <li>Crea 3 variables numero1,numero2 y resultado.</li>
-        <li>Pidele al usuario que ingrese los valores de las variables numero1 y numero2 mediante un
-          <strong>prompt().</strong></li>
-        <li> Asigna a la variable resultado el valor de la suma entre numero1 y numero2.</li>
-        <li> Muestra un alerta con el mensaje <strong> “El resultado es: (resultado)”</strong>.</li>
-      </ol>
-      <p>Lo resolví del siguiente modo:</p>
-      <code class="code-block">let numero1 = Number (prompt ('Por favor ingresa un primer número: '))</code>
-      <code class="code-block">let numero2 = Number (prompt ('Por favor ingresa un segundo número, para poder sumar
-        ambos números ingresados: '))</code>
-      <code class="code-block">let numero3 = numero1 + numero2 </code>
-      <code class="code-block">alert (`El resultado es: ${numero3}`);</code>
+      <h3>Ejercicio 17</h3>
+      <p>Se le pedirá al usuario un número y una vez que lo tengamos se deberá mostrar en pantalla las tablas de dicho número hasta el 10:</p>
+      <p>Por ejemplo, si el usuario escribe 5 se deberá generar lo siguiente:</p>
+      <p>5 x 1 = 5</p>
+      <p>5 x 2 = 10</p>
+      <p>5 x 3 = 15</p>
+      <p>...........</p>
+      <p>5 x 10 = 50</p>
+      <p>Forma de resolverlo: </p>
+      <p>Pido que ingrese un numero y lo guardo en la variable numeroIngresado</p>
+      <code class="code-block">let numeroIngresado = Number(prompt('Por favor ingrese un número, para mostrarle la tabla del número del 1 al 10: '));</code>
+      <p>declaro e inicializo en 0 la variable i que es el index para recorrer con el for los números del 1 al 10 para hacer la multiplicación</p>
+      <code class="code-block">var i = 0;</code>
+      <p>Con un for voy recorriendo del 1 al 10 y dentro hago la multiplicación del númeroIngresado por los números de la tabla</p>
+      <code class="code-block">for (i=0; i<=10; i++)  {</code>
+      <code class="code-block">document.write("<ul>");</code>
+      <code class="code-block">document.write(` ${numeroIngresado} x  ${i} = ${numeroIngresado * i}`);</code>
+      <code class="code-block">document.write("</li>");</code>
+      <code class="code-block">  document.write("</ul>");</code>
+      <code class="code-block">  }</code>
       <a href="index.html" class="btn btn-bg-color mt-5" rel="noopener">Volver al inicio</a>
     </section>
   </main>
@@ -77,7 +82,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
     integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
   </script>
-  <script src="./js/ejercicio3.js"></script>
+  <script src="./js/ejercicio17.js"></script>
 </body>
 
 </html>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/ejercicios.css">
     <link rel="shortcut icon" href="img/javascript.ico" type="image/x-icon">
     <!--Title-->
-    <title>Ejercicio 10 de JS</title>
+    <title>Ejercicio 30 de JS</title>
     <!--SEO-->
     <meta name="description" content="Hola bienvenid@ a mi pagina de práctica de JavaScript, soy María Eugenia Costa, Desarrolladora Full Stack">
     <link rel="favicon" href="./img/javascript.ico">
@@ -43,23 +43,32 @@
         <h2 class="text-center my-3">Ejercicios de práctica de <strong>JavaScript</strong></h2>
       </section>
       <section id="ejercicios">
-        <h3>Ejercicio 10</h3>
-        <h4>Una entrada para tu película favorita.</h4>
+        <h3>Ejercicio 30</h3>
+        <h4>Manipulando el DOM de un botón a partir de un evento.</h4>
+        <p>Nivel junior</p>
+        <p>Spoiler alert: Sigue las instrucciones paso a paso. No te adelantes, de lo contrario correrás el riesgo de no encontrar la solución o que se te dificulte las mismas.</p>
         <ol>
-          <li>Declara una variable que se llame <strong>peliculaElegida</strong> y asignale el método <strong>prompt() </strong> para que le puedas solicitar al usuario que ingrese su película favorita de una lista, que tú vas a proporcionar en dicho método. <br>
-          Importante: para que puedas enlistar las opciones de películas una debajo de otra, necesitaras el carácter especial (\n ) ó colocar un <strong> br </strong> para hacer un salto de línea. Sino te queda muy claro  cómo usarlo, deberás googlea para ver un ejemplo.</li>
-          <li>Evalúa cada uno de los casos con el condicional switch (utilizaremos este método para practicarlo). En el bloque de código de cada case le diremos que “su ticket ha sido emitido”, pero, lo haremos a través del método <strong>document.write()</strong> y en su argumento(dentro de los paréntesis) haremos un template literals con el formato HTML del texto y la imagen de la película elegida.</li>
+          <li>Crea un botón en HTML y coloca como texto <strong>Activar</strong>. Luego en tu archivo CSS dale un <strong>background-color: red;</strong> al botón.</li>
+          <li>Agrega al botón los siguientes eventos en JS: <strong>click</strong>, <strong>mouseenter</strong>, <strong>mouseleave</strong>. (Recuerda obtener el elemento para luego manipularlo con cada uno de los eventos que tienes que crear).</li>
+          <li>En las funciones vinculadas al evento programa lo siguiente.
+            <ul>
+              <li>Evento <strong>click</strong> : Programa que cuando se haga click, el texto del botón, se cambie por el string “Desactivado”.</li>
+              <li>Evento <strong>mouseenter</strong> : Cuando entre el cursor al botón, este cambie de color a verde.</li>
+              <li>Evento <strong>mouseleave</strong> : Cuando se salga el cursor del botón, que vuelva al color que predeterminamos en CSS</li>
+            </ul>
+          </li>
         </ol>
+        <h5 class="my-3">👇🏼 Acá está el botón creado </h5>
+        <button id="ejercicio30">Activar</button>
+        <h5 class="my-3">Cómo lo hice?</h5>
+        <p>En este archivo html creo el botón con el texto <strong>Activar</strong> y le aplico la <strong>clase "boton-ejercicio30</strong>, luego en mi archivo de CSS nombrado <strong>ejercicios.css</strong> nombro la clase <strong>boton-ejercicio30</strong> y le aplico la propiedad background-color con el valor "red".</p>
         <code class="code-block"></code>
-        <code class="code-block"></code>
-        <code class="code-block"></code>
-        <code class="code-block">  </code>
-        <code class="code-block"> </code>
-        <code class="code-block"></code>
-        <a href="index.html" class="btn btn-bg-color mt-5" rel="noopener">Volver al inicio</a> 
-        <section id="pelicula">
 
-        </section>
+        <p>👀 Hay que verlo desde la consola</p>
+ 
+
+        <a href="index.html" class="btn btn-bg-color mt-5" rel="noopener">Volver al inicio</a> 
+
       </section>
     </main>
   
@@ -71,6 +80,6 @@
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    <script src="./js/ejercicio10.js"></script>
+    <script src="./js/ejercicio30.js"></script>
   </body>
 </html>

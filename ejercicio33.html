@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/ejercicios.css">
     <link rel="shortcut icon" href="img/javascript.ico" type="image/x-icon">
     <!--Title-->
-    <title>Ejercicio 10 de JS</title>
+    <title>Ejercicio 33 de JS</title>
     <!--SEO-->
     <meta name="description" content="Hola bienvenid@ a mi pagina de práctica de JavaScript, soy María Eugenia Costa, Desarrolladora Full Stack">
     <link rel="favicon" href="./img/javascript.ico">
@@ -43,23 +43,46 @@
         <h2 class="text-center my-3">Ejercicios de práctica de <strong>JavaScript</strong></h2>
       </section>
       <section id="ejercicios">
-        <h3>Ejercicio 10</h3>
-        <h4>Una entrada para tu película favorita.</h4>
+        <h3>Ejercicio 33</h3>
+        <h4>Consultando valores</h4>
+        <p>Muchas veces vamos a tener estructuras más complejas de objetos y nosotros vamos a tener que acordarnos de todos los conceptos que hemos vimos hasta ahora.</p>
+        <p>Copia y pega esto en tu archivo JS</p>
+        <code>const superHeroes ={</code><br>
+        <code class="mx-3">"squadName" : "Super Hero Squad", </code>
+        <code class="mx-3">"homeTown" : "Metro City", </code><br>
+        <code class="mx-3">"formed" : 2016,</code> <br>
+        <code class="mx-3">"secretBase" : "Super tower", </code> <br>
+        <code class="mx-3">"active" : true,</code> <br>
+        <code class="mx-3">"members" : [</code> <br>
+        <code class="mx-5">{</code> <br>
+        <code class="mx-5">"name" : "Molecule Man", </code> <br> <code class="mx-5">"age" : 29,</code> <br>
+        <code class="mx-5">"secretIdentity" : "Dan Jukes", [</code> <br> <code class="mx-5">"powers" : "Radiation resistance", "Turning tiny", "Radiation blast" ] </code> <br>
+        <code class="mx-3"> },</code> <br>
+        <code class="mx-3">{</code> <br>
+        <code class="mx-5">"name" : "Madame Uppercut", "age" : 39,</code> <br>
+        <code class="mx-5">"secretIdentity" : "Jane Wilson", "powers" : [</code> <br>
+        <code class="mx-5">"Million tonne punch", "Damage resistance", "Superhuman reflexes" ]</code> <br>
+        <code class="mx-5">}</code> <br>
+        <code class="mx-3">]</code> <br>
+        <code>}</code>
+        <p>Consultemos por consola los siguientes valores:</p>
         <ol>
-          <li>Declara una variable que se llame <strong>peliculaElegida</strong> y asignale el método <strong>prompt() </strong> para que le puedas solicitar al usuario que ingrese su película favorita de una lista, que tú vas a proporcionar en dicho método. <br>
-          Importante: para que puedas enlistar las opciones de películas una debajo de otra, necesitaras el carácter especial (\n ) ó colocar un <strong> br </strong> para hacer un salto de línea. Sino te queda muy claro  cómo usarlo, deberás googlea para ver un ejemplo.</li>
-          <li>Evalúa cada uno de los casos con el condicional switch (utilizaremos este método para practicarlo). En el bloque de código de cada case le diremos que “su ticket ha sido emitido”, pero, lo haremos a través del método <strong>document.write()</strong> y en su argumento(dentro de los paréntesis) haremos un template literals con el formato HTML del texto y la imagen de la película elegida.</li>
+          <li>Consulta el valor ("Super Hero Squad") de la propiedad squadName.</li>
+          <li>Consulta el valor que dice "Madame Uppercut" (ayuda: 3. objeto- propiedad-arreglo-propiedad).</li>
+          <li>Consulta el valor que dice "Superhuman reflexes".</li>
+          <li>Consulta el valor "39" de la propiedad age de Madame Uppercut.</li>
         </ol>
-        <code class="code-block"></code>
-        <code class="code-block"></code>
-        <code class="code-block"></code>
-        <code class="code-block">  </code>
-        <code class="code-block"> </code>
-        <code class="code-block"></code>
+        <p>En mi archivo <strong>JS</strong> copie todo el objeto <strong>superHeroes</strong>.</p>
+        <p>Consulto el valor ("Super Hero Squad") de la propiedad squadName, y lo muestro por consola con console.info</p>
+        <code class="code-block">console.info(superHeroes["squadName"]);</code>
+        <p>Consulto el valor que dice "Madame Uppercut" (ayuda: 3. objeto-propiedad-arreglo-propiedad) y lo muestro por consola con console.info.</p>
+        <code class="code-block">console.info(superHeroes.members[1].name);</code>
+        <p>Consulto el valor que dice "Superhuman reflexes"  y lo muestro por consola con console.info.</p>
+        <code class="code-block">console.info(superHeroes.members[1].powers[2]);</code>
+        <p>Consulto el valor "39" de la propiedad age de Madame Uppercut y lo muestro por consola con console.info.</p>
+        <code class="code-block">console.info(superHeroes.members[1].age);</code>    
+        <p>👀 Hay que verlo desde la consola</p>
         <a href="index.html" class="btn btn-bg-color mt-5" rel="noopener">Volver al inicio</a> 
-        <section id="pelicula">
-
-        </section>
       </section>
     </main>
   
@@ -71,6 +94,6 @@
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    <script src="./js/ejercicio10.js"></script>
+    <script src="./js/ejercicio33.js"></script>
   </body>
 </html>
