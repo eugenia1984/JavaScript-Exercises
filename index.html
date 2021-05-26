@@ -48,26 +48,30 @@
 
     <!------ Titulo --------->
     <section>
-      <h2 class="text-center my-5">Ejercicios de práctica de <strong>JavaScript</strong></h2>
+      <h2 class="my-5">Ejercicios de práctica de <strong>JavaScript</strong></h2>
     </section>
 
-    <!----- Ejercicios en acordion ----->
+    <!-------Ejercicios del 1 al 5 de variables, consola, alert y prompt-------->
     <section id="ejercicios" class="container">
       <section class="row">
-        <!----Ejercicio 1---->
-        <div class="accordion col-sm-6 col-md-4" id="accordionExample">
+        <div class="col-sm-12">
+          <h3>Ejercicios con variables, utilizando consola y alert y prompt</h3>
+        </div>
+      </section>
+      <section class="row">
+        <!------Ejercicio 1--------->
+        <div class="accordion my-2 col-sm-12" id="accordionExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
+            <div class="accordion-header" id="headingOne">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <h3>Ejercicio 1</h3>
+                <h4>Ejercicio 1</h4>
               </button>
-            </h2>
+            </div>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>Vamos a trabajar un poco con la consola para ir amigandonos con ella ya que será nuestra mejor amiga de
-                  ahora en más.</p>
+                <p>Vamos a trabajar un poco con la consola para ir amigandonos con ella ya que será nuestra mejor amiga de ahora en más.</p>
                 <ol>
                   <li>Declara una variable llamada nombre en tu consola y asignale tu nombre.</li>
                   <li>Declara una variable llamada apellido y asignale como valor tu apellido.</li>
@@ -78,41 +82,41 @@
             </div>
           </div>
         </div>
-        <!----Ejercicio 2---->
-          <div class="accordion-item   my-1 col-sm-6 col-md-4 ">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <h3>Ejercicio 2</h3>
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>Bien, ahora agregemos Javascript a nuestro proyecto web.</p>
-                <ol>
-                  <li>En nuestro archivo HTML vamos a vincular un fichero/archivo que se llame
-                    <strong>script.js</strong>(Este archivo debemos crearlo previamente).</li>
-                  <li>Recuerda que para vincular el fichero debemos hacerlo con la etiqueta <code> script </code> la cual
-                    debemos agregarla antes de que cierre la etiqueta <code>body</code>.</li>
-                  <li> Dentro del archivo script.js, vamos a declarar las variables nombre y apellido que habiamos
-                    declarado en la consola. Pero, esta vez deberemos asignarle el método <strong>prompt()</strong> para
-                    que sea el usuario quien introduzca los datos, nombre y apellido.</li>
-                  <li>Mostrar una alerta de bienvenida a nuestra página con el nombre y el apellido del usuario
-                    “Bienvenido a nuestra página (nombre+apellido)”</li>
-                </ol>
-                <a href="ejercicio2.html" rel="noopener" `>Ver el ejercicio</a>
-              </div>
+        <!-------------Ejercicio 2------------->
+        <div class="accordion-item my-2 col-sm-12">
+          <div class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h4>Ejercicio 2</h4>
+            </button>
+          </div>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Bien, ahora agregemos Javascript a nuestro proyecto web.</p>
+              <ol>
+                <li>En nuestro archivo HTML vamos a vincular un fichero/archivo que se llame
+                  <strong>script.js</strong>(Este archivo debemos crearlo previamente).</li>
+                <li>Recuerda que para vincular el fichero debemos hacerlo con la etiqueta <code> script </code> la cual
+                  debemos agregarla antes de que cierre la etiqueta <code>body</code>.</li>
+                <li> Dentro del archivo script.js, vamos a declarar las variables nombre y apellido que habiamos
+                  declarado en la consola. Pero, esta vez deberemos asignarle el método <strong>prompt()</strong> para
+                  que sea el usuario quien introduzca los datos, nombre y apellido.</li>
+                <li>Mostrar una alerta de bienvenida a nuestra página con el nombre y el apellido del usuario
+                  “Bienvenido a nuestra página (nombre+apellido)”</li>
+              </ol>
+              <a href="ejercicio2.html" rel="noopener" `>Ver el ejercicio</a>
             </div>
           </div>
+        </div>
           <!----Ejercicio 3---->
-          <div class="accordion-item  my-1 col-sm-6 col-md-4 ">
-            <h2 class="accordion-header" id="headingThree">
+          <div class="accordion-item my-2  col-sm-12">
+            <div class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <h3>Ejercicio 3</h3>
+                <h4>Ejercicio 3</h4>
               </button>
-            </h2>
+            </div>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
@@ -129,13 +133,13 @@
           </div>
         </div>
         <!----Ejercicio 4---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingFour">
+        <div class="accordion-item  my-2 col-sm-12">
+          <div class="accordion-header" id="headingFour">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              <h3>Ejercicio 4</h3>
+              <h4>Ejercicio 4</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -152,13 +156,13 @@
         </div>
         </div>
         <!----Ejercicio 5---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingFive">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingFive">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              <h3>Ejercicio 5</h3>
+              <h4>Ejercicio 5</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -174,14 +178,26 @@
             </div>
           </div>
         </div>
+      </section>
+      <section class="row">
+      </section>
+    </section>
+    <!-------Ejercicios 6 y 7 operadores de comparacion y logicos ------->   
+    <section id="ejercicios2" class="container">
+      <section class="row">
+        <div class="col-sm-12">
+          <h3>Ejercicios con operadores de comparación y lógicos</h3>
+        </div>
+      </section>
+      <section class="row">
         <!----Ejercicio 6---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingSix">
+        <div class="accordion-item my-1  col-sm-12">
+          <div class="accordion-header" id="headingSix">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              <h3>Ejercicio 6</h3>
+              <h4>Ejercicio 6</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -200,13 +216,13 @@
           </div>
         </div>
         <!----Ejercicio 7---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingSeven">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingSeven">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-              <h3>Ejercicio 7</h3>
+              <h4>Ejercicio 7</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -221,14 +237,24 @@
             </div>
           </div>
         </div>
+      </section>
+    </section>  
+    <!-------Ejercicios del 8 al 17 condicionales ---------->
+    <section id="ejercicios3" class="container">
+      <section class="row">
+        <div class="col-sm-12">
+          <h3>Ejercicios condicionales</h3>
+        </div>
+      </section>
+      <section class="row">
         <!----Ejercicio 8---->
-        <div class="accordion-item my-1 col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingEight">
+        <div class="accordion-item my-2 col-sm-12">
+          <div class="accordion-header" id="headingEight">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-              <h3>Ejercicio 8</h3>
+              <h4>Ejercicio 8</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -243,13 +269,13 @@
           </div>
         </div>
         <!----Ejercicio 9---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingNine">
+        <div class="accordion-item my-2  col-sm-12 ">
+          <div class="accordion-header" id="headingNine">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-              <h3>Ejercicio 9</h3>
+              <h4>Ejercicio 9</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -264,13 +290,13 @@
           </div>
         </div>
         <!----Ejercicio 10---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTen">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingTen">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-              <h3>Ejercicio 10</h3>
+              <h4>Ejercicio 10</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -293,13 +319,13 @@
           </div>
         </div>
         <!----Ejercicio 11---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingEleven">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingEleven">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-              <h3>Ejercicio 11</h3>
+              <h4>Ejercicio 11</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -320,13 +346,13 @@
           </div>
         </div>
         <!----Ejercicio 12---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwelve">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingTwelve">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-              <h3>Ejercicio 12</h3>
+              <h4>Ejercicio 12</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -342,13 +368,13 @@
           </div>
         </div>
         <!----Ejercicio 13---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingThirteen">
+        <div class="accordion-item my-2  col-sm-12 ">
+          <div class="accordion-header" id="headingThirteen">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-              <h3>Ejercicio 13</h3>
+              <h4>Ejercicio 13</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -364,13 +390,35 @@
           </div>
         </div>
         <!----Ejercicio 14---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingFifteen">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingFourthteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFourthteen" aria-expanded="false" aria-controls="collapseFourthteen">
+              <h4>Ejercicio 14</h4>
+            </button>
+          </div>
+          <div id="collapseFourthteen" class="accordion-collapse collapse" aria-labelledby="headingFourthteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Se va a mostrar por consola</p>
+              <ol>
+                <li>Imprimí todos los números entre -20 y 30</li>
+                <li>Imprimí todos los números pares entre 20 y 60</li>
+                <li>Imprimí todos los números impares entre 600 y 666</li>
+                <li>Imprimí todos los números primos entre 1 y 150</li>
+              </ol>
+              <a href="ejercicio14.html" rel="noopener">Ver el ejercicio</a>
+            </div>
+          </div>
+        </div>
+        <!----Ejercicio 15---->
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingFifteen">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-              <h3>Ejercicio 15</h3>
+              <h4>Ejercicio 15</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -383,13 +431,13 @@
           </div>
         </div>
         <!----Ejercicio 16---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingSixteen">
+        <div class="accordion-item my-2  col-sm-12 ">
+          <div class="accordion-header" id="headingSixteen">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-              <h3>Ejercicio 16</h3>
+              <h4>Ejercicio 16</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -402,13 +450,13 @@
           </div>
         </div>
         <!----Ejercicio 17---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingSeventeen">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingSeventeen">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-              <h3>Ejercicio 17</h3>
+              <h4>Ejercicio 17</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -424,15 +472,24 @@
             </div>
           </div>
         </div>
-
+      </section>
+    </section>
+     <!-------Ejercicios del 18 al 22 arrays ---------->
+     <section id="ejercicios4" class="container">
+      <section class="row">
+        <div class="col-sm-12">
+          <h3>Ejercicios con Arrays</h3>
+        </div>
+      </section>
+      <section class="row">   
         <!----Ejercicio 18---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingEighteen">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingEighteen">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
-              <h3>Ejercicio 18</h3>
+              <h4>Ejercicio 18</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -446,13 +503,13 @@
           </div>
         </div>
         <!----Ejercicio 19---->
-        <div class="accordion-item my-1   col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingNighteen">
+        <div class="accordion-item my-2 col-sm-12">
+          <div class="accordion-header" id="headingNighteen">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseNighteen" aria-expanded="false" aria-controls="collapseNighteen">
-              <h3>Ejercicio 19</h3>
+              <h4>Ejercicio 19</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseNighteen" class="accordion-collapse collapse" aria-labelledby="headingNighteen"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -467,13 +524,13 @@
           </div>
         </div>
         <!----Ejercicio 20---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwenty">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingTwenty">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
-              <h3>Ejercicio 20</h3>
+              <h4>Ejercicio 20</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -487,13 +544,13 @@
           </div>
         </div>
         <!----Ejercicio 21---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwentyOne">
+        <div class="accordion-item my-2  col-sm-12 ">
+          <div class="accordion-header" id="headingTwentyOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
-              <h3>Ejercicio 21</h3>
+              <h4>Ejercicio 21</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseTwentyOne" class="accordion-collapse collapse" aria-labelledby="headingTwentyOne"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -508,13 +565,13 @@
           </div>
         </div>
         <!----Ejercicio 22---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwentyTwo">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingTwentyTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo">
-              <h3>Ejercicio 22</h3>
+              <h4>Ejercicio 22</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseTwentyTwo" class="accordion-collapse collapse" aria-labelledby="headingTwentyTwo"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -527,14 +584,24 @@
             </div>
           </div>
         </div>
+      </section>
+    </section>  
+    <!-------Ejercicios del 23 al 26 Funciones  ---------->
+    <section id="ejercicios5" class="container">
+      <section class="row">
+        <div class="col-sm-12">
+          <h3>Ejercicios con Funciones</h3>
+        </div>
+      </section>
+      <section class="row"> 
         <!----Ejercicio 23---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwentyThree">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingTwentyThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseTwentyThree" aria-expanded="false" aria-controls="collapseTwentyThree">
-              <h3>Ejercicio 23</h3>
+              <h4>Ejercicio 23</h4>
             </button>
-          </h2>
+          </div>
           <div id="collapseTwentyThree" class="accordion-collapse collapse" aria-labelledby="headingTwentyThree"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -544,17 +611,17 @@
           </div>
         </div>
         <!----Ejercicio 24---->
-        <div class="accordion-item my-1 col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwentyFour">
+        <div class="accordion-item my-2 col-sm-12">
+          <div class="accordion-header" id="headingTwentyFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwentyFour" aria-expanded="false" aria-controls="collapseTwentyFour">
-            <h3>Ejercicio 24</h3>
+            <h4>Ejercicio 24</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseTwentyFour" class="accordion-collapse collapse" aria-labelledby="headingTwentyFour"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p>Calculando el mayor.</p>
+              <p>Calculando el mayor</p>
               <ol>
                 <li>Declara una función que se llama <strong>calculoMayor()</strong> y pasale como parámetros <strong>(num1,num2)</strong> </li>
                 <li>Dentro de la función muestra una alerta que diga cuál de los números ingresados es mayor. En caso de ser iguales, tendrá que indicarlo a través de una alerta también.</li>
@@ -564,21 +631,21 @@
             </div>
           </div>
         </div>
-        <!----Ejercicio 25---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwentyFive">
+         <!----Ejercicio 25---->
+         <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingTwentyFive">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwentyFive" aria-expanded="false" aria-controls="collapseTwentyFive">
-            <h3>Ejercicio 25</h3>
+            <h4>Ejercicio 25</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseTwentyFive" class="accordion-collapse collapse" aria-labelledby="headingTwentyFive"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p> Sistema de facturación.</p>
+              <p> Sistema de facturación</p>
               <ol>
-                <li>Crear una función que se llame facturacion().</li>
-                <li>La función tiene que recibir como parámetro el monto de un producto, y el medio de pago: C (tarjeta de crédito), E (efectivo) y D (tarjeta de débito). Si el monto del producto es menor a $200 no se aplicará ningún descuento. Si el monto a abonar es entre $200 y $400 se aplicará un descuento del 30% si el medio de pago es efectivo, 20% si se realiza con dÃ©bito y 10% con tarjeta de crédito. Para montos mayores a $400, el descuento es 40% sin importar el medio de pago.</li>
+                <li>Crear una función que se llame <strong>facturacion()</strong> .</li>
+                <li>La función tiene que recibir como parámetro el <strong>monto de un producto</strong> , y el <strong>medio de pago</strong> : C (tarjeta de crédito), E (efectivo) y D (tarjeta de débito). Si el monto del producto es menor a $200 no se aplicará ningún descuento. Si el monto a abonar es entre $200 y $400 se aplicará un descuento del 30% si el medio de pago es efectivo, 20% si se realiza con dÃ©bito y 10% con tarjeta de crédito. Para montos mayores a $400, el descuento es 40% sin importar el medio de pago.</li>
                 <li>La función deberá retornar el monto final a abonar.</li>
               </ol>
               <a href="ejercicio25.html" rel="noopener">Ver el ejercicio</a>
@@ -586,13 +653,13 @@
           </div>
         </div>
         <!----Ejercicio 26---->
-        <div class="accordion-item my-1  col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwentySix">
+        <div class="accordion-item my-2  col-sm-12">
+          <div class="accordion-header" id="headingTwentySix">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwentySix" aria-expanded="false" aria-controls="collapseTwentySix">
-            <h3>Ejercicio 26</h3>
+            <h4>Ejercicio 26</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseTwentySix" class="accordion-collapse collapse" aria-labelledby="headingTwentySix"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -606,36 +673,46 @@
             </div>
           </div>
         </div>
+      </section>
+    </section>
+    <!-------Ejercicios del 27 al 31 Eventos y manipulacion del DOM ---------->
+    <section id="ejercicios5" class="container">
+      <section class="row">
+        <div class="col-sm-12">
+          <h3>Ejercicios con Eventos y manipulación del DOM</h3>
+        </div>
+      </section>
+      <section class="row">  
         <!----Ejercicio 27---->
-        <div class="accordion-item my-1 col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwentySeven">
+        <div class="accordion-item my-2 col-sm-12 ">
+          <div class="accordion-header" id="headingTwentySeven">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwentySeven" aria-expanded="false" aria-controls="collapseTwentySeven">
-            <h3>Ejercicio 27</h3>
+            <h4>Ejercicio 27</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseTwentySeven" class="accordion-collapse collapse" aria-labelledby="headingTwentySeven"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <p>Lanzamientos de dados.</p>
+              <p>Lanzamientos de dados</p>
               <p>Vamos a practicar como programar un evento, en esta ocasión haremos uso del más simple de ellos; el <strong>evento click</strong>.</p>
               <ol>
-                <li>En el archivo HTML crea un botÃ³n con el texto tirar dados. Define el atributo <strong>onclick="tirarDados()"</strong> al botón.</li>
-                <li>En el archivo JS declara una función tirarDados(). Esta se ejecutara cada vez que se haga click en el botòn tirar dados.</li>
-                <li>Codea dentro del bloque de la función, el lanzamiento aleatorio a trav´ws de un math.ramdom (pregúntale a san Google como funciona).</li>
+                <li>En el archivo HTML crea un botón con el texto tirar dados. Define el atributo <strong>onclick="tirarDados()"</strong> al botón.</li>
+                <li>En el archivo JS declara una función tirarDados(). Esta se ejecutara cada vez que se haga click en el botón tirar dados.</li>
+                <li>Codea dentro del bloque de la función, el lanzamiento aleatorio a travé de un math.ramdom (pregúntale a san Google como funciona).</li>
               </ol>
               <a href="ejercicio27.html" rel="noopener">Ver el ejercicio</a>
             </div>
           </div>
         </div>
-        <!----Ejercicio 28---->
-        <div class="accordion-item my-1 col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwentyEight">
+         <!----Ejercicio 28---->
+         <div class="accordion-item my-2 col-sm-12">
+          <div class="accordion-header" id="headingTwentyEight">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwentyEight" aria-expanded="false" aria-controls="collapseTwentyEight">
-            <h3>Ejercicio 28</h3>
+            <h4>Ejercicio 28</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseTwentyEight" class="accordion-collapse collapse" aria-labelledby="headingTwentyEight"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -644,19 +721,18 @@
                 <li>Crea un botón en HTML qué diga "clickeame"</li>
                 <li>Crea un función <strong>contadorDeClick()</strong> y programa que cada vez que se haga click se muestre por la consola el conteo de las veces que se ha realizado click en el botón.</li>
               </ol>
-
               <a href="ejercicio28.html" rel="noopener">Ver el ejercicio</a>
             </div>
           </div>
         </div>
         <!----Ejercicio 29---->
-        <div class="accordion-item my-1 col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingTwentyNine">
+        <div class="accordion-item my-2 col-sm-12">
+          <div class="accordion-header" id="headingTwentyNine">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwentyNine" aria-expanded="false" aria-controls="collapseTwentyNine">
-            <h3>Ejercicio 29</h3>
+            <h4>Ejercicio 29</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseTwentyNine" class="accordion-collapse collapse" aria-labelledby="headingTwentyNine"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -682,13 +758,13 @@
           </div>
         </div>
         <!----Ejercicio 30---->
-        <div class="accordion-item my-1 col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingThirty">
+        <div class="accordion-item my-2 col-sm-12 ">
+          <div class="accordion-header" id="headingThirty">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseThirty" aria-expanded="false" aria-controls="collapseThirty">
-            <h3>Ejercicio 30</h3>
+            <h4>Ejercicio 30</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseThirty" class="accordion-collapse collapse" aria-labelledby="headingThirty"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -711,13 +787,13 @@
           </div>
         </div>
         <!----Ejercicio 31---->
-        <div class="accordion-item my-1 col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingThirtyOne">
+        <div class="accordion-item my-2 col-sm-12 ">
+          <div class="accordion-header" id="headingThirtyOne">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseThirtyOne" aria-expanded="false" aria-controls="collapseThirtyOne">
-            <h3>Ejercicio 31</h3>
+            <h4>Ejercicio 31</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseThirtyOne" class="accordion-collapse collapse" aria-labelledby="headingThirtyOne"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -735,18 +811,28 @@
             </div>
           </div>
         </div>
+      </section>
+    </section>
+    <!-------Ejercicios del 31 al 35 Objetos y manipulacion del DOM ---------->
+    <section id="ejercicios6" class="container">
+      <section class="row">
+        <div class="col-sm-12">
+          <h3>Ejercicios con Objetos y manipulación del DOM</h3>
+        </div>
+      </section>
+      <section class="row"> 
         <!----Ejercicio 32---->
-        <div class="accordion-item my-1 col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingThirtyTwo">
+        <div class="accordion-item my-2 col-sm-12">
+          <div class="accordion-header" id="headingThirtyTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseThirtyTwo" aria-expanded="false" aria-controls="collapseThirtyTwo">
-            <h3>Ejercicio 32</h3>
+            <h4>Ejercicio 32</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseThirtyTwo" class="accordion-collapse collapse" aria-labelledby="headingThirtyTwo"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <h3>Creando y consultando un Objeto.</h3>
+              <h3>Creando y consultando un Objeto</h3>
               <p>Crea un objeto con el nombre toDoList debería tener las siguientes propiedades y valores:</p>
               <ul>
                 <li>tipo de tarea: un string que diga "Compras" (ojo con los espacios en el nombre de la propiedad tienes que poner entre comillas si tiene espacios)</li>
@@ -763,23 +849,22 @@
                 <li>Extrae la cantidad de productos usando bracket notation.</li>
                 <li>Ejecuta el método (función) de la propiedad notificación (tienes que extraerlo del objeto y recuerda que es una función).</li>
               </ol>
-            
               <a href="ejercicio32.html" rel="noopener">Ver el ejercicio</a>
             </div>
           </div>
         </div>
         <!----Ejercicio 33---->
-        <div class="accordion-item my-1 col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingThirtyThree">
+        <div class="accordion-item my-2 col-sm-12 ">
+          <div class="accordion-header" id="headingThirtyThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseThirtyThree" aria-expanded="false" aria-controls="collapseThirtyThree">
-            <h3>Ejercicio 33</h3>
+            <h4>Ejercicio 33</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseThirtyThree" class="accordion-collapse collapse" aria-labelledby="headingThirtyThree"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <h3>Consultando valores.</h3>
+              <h3>Consultando valores</h3>
               <p>Muchas veces vamos a tener estructuras más complejas de objetos y nosotros vamos a tener que acordarnos de todos los conceptos que hemos vimos hasta ahora.</p>
               <p>Copia y pega esto en tu archivo JS</p>
               <code>const superHeroes ={</code><br>
@@ -807,19 +892,18 @@
                 <li>Consulta el valor que dice "Superhuman reflexes".</li>
                 <li>Consulta el valor "39" de la propiedad age de Madame Uppercut.</li>
               </ol>
-                
               <a href="ejercicio33.html" rel="noopener">Ver el ejercicio</a>
             </div>
           </div>
         </div>
         <!----Ejercicio 34---->
-        <div class="accordion-item my-1 col-sm-6 col-md-4 ">
-          <h2 class="accordion-header" id="headingThirtyFour">
+        <div class="accordion-item my-2 col-sm-12 ">
+          <div class="accordion-header" id="headingThirtyFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseThirtyFour" aria-expanded="false" aria-controls="collapseThirtyFour">
-            <h3>Ejercicio 34</h3>
+            <h4>Ejercicio 34</h4>
           </button>
-          </h2>
+          </div>
           <div id="collapseThirtyFour" class="accordion-collapse collapse" aria-labelledby="headingThirtyFour"
             data-bs-parent="#accordionExample">
             <div class="accordion-body">
@@ -847,9 +931,33 @@
             </div>
           </div>
         </div>
-
+        <!----Ejercicio 35---->
+        <div class="accordion-item my-2 col-sm-12 ">
+          <div class="accordion-header" id="headingThirtyFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThirtyFive" aria-expanded="false" aria-controls="collapseThirtyFive">
+            <h4>Ejercicio 35</h4>
+          </button>
+          </div>
+          <div id="collapseThirtyFive" class="accordion-collapse collapse" aria-labelledby="headingThirtyFive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <h3>Ejercitación - Fetch</h3>
+              <p>Vamos a refactorizar el ejercicio 2, de la clase anterior. Es decir, en vez de consumir los datos de los super héroes desde el objeto,vamos a consumirlo desde una petición AJAX a través del siguiente <a href="https://mdn.github.io/learningarea/javascript/oojs/json/superheroes.json" about="_blank">https://mdn.github.io/learningarea/javascript/oojs/json/superheroes.json</a> </p>
+              <a href="ejercicio34.html" rel="noopener">Ver el ejercicio</a>
+              <ol>
+                <li>Crea una función que se llame peticionSuperHeroes() y dentro de ella coloca la petición AJAX con el método fetch().</li>
+                <li>En la función que ya tienes creada para mostrar los super Heroes. Pasa como parámetro el nombre superHeroes.</li>
+                <li>En el segundo then() de la función peticionSuperHeroes(). Llama a la función mostrar superHeroes y pásale como argumento la respuesta que devuelve la petición. Ejemplo: mostrarSuperHeroes(respuesta)</li>
+                <li>Refactorea el evento del botón “Cargar superHeroes” y vinculale la función peticionSuperHeroes()</li>
+              </ol>
+              <h4>¡Listo! Ya has consumido tu primera API.</h4>
+            </div>
+          </div>
+        </div>
       </section>
     </section>
+ 
     <section>
       <p class="text-center text-uppercase fs-4 fw-bold my-5"> Proximamente más ejercicios...</p>
     </section>
@@ -858,8 +966,7 @@
 
   <footer class="footer mt-auto bg-color-footer">
     <div class="container py-2">
-      <p>Diseñado por <a href="https://www.linkedin.com/in/maríaeugeniacosta" target="_blank" rel="noopener" >María
-          Eugenia Costa</a> de los ejercicios de práctica de <strong>PDTC</strong></p>
+      <p>Diseñado por <a href="https://www.linkedin.com/in/maríaeugeniacosta" target="_blank" rel="noopener" >María Eugenia Costa</a> con ejercicios de práctica de JS con <strong>PDTC</strong></p>
     </div>
   </footer>
   <!-- Option 2: Separate Popper and Bootstrap JS -->
