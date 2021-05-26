@@ -34,11 +34,23 @@ header .navbar-color h1 {
 #main-ejercicio1 {
   min-height: 100vh;
 } 
-
-#ejercicios {
-  width: 98%;
-  margin: 2rem auto;
+h2, h3 {
+  text-align: center;
 }
+/*****Bloques de colores con ejercicios*******/
+#ejercicios, #ejercicios2, #ejercicios3, #ejercicios4, #ejercicios5, #ejercicios6 {
+  background-color: rgb(240, 218, 218);
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  width: 98%;
+}  
+
+
 /*Code*/
 .code-inline {
   display: inline-block;
